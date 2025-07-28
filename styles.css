@@ -10,3 +10,13 @@
     --accent-color1: #cbbb2a;
     --accent-color2: #fdedf2;
 }
+
+/*      BACKGROUND COLOUR     */
+body {
+    background-color: var(--background-color);
+}
+
+/*      SECTION BORDERS     */
+section {
+    border-bottom: 2px solid var(--accent-color1);
+}
