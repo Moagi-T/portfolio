@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/*      PRIMARY COLOUR PALETTE        */
+:root {
+    --background-color: #221f1b;
+    --accent-color1: #cbbb2a;
+    --accent-color2: #fdedf2;
+}
+
+
