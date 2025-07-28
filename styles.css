@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+html {
+        scroll-padding-top: 59px;
+    }
+
+
             /*      DEFINING COLOURS VARIABLES   */
 :root {
     --background-color: #221f1b;
@@ -82,7 +87,6 @@ nav a:hover {
 }
 
 @media (max-width: 332px) {
-
     /*      NAVBAR      */
     #navbar {
         border-bottom: 2px solid var(--accent-color1);
@@ -106,6 +110,9 @@ nav a:hover {
     }
     nav a:hover {
         border-radius: 0;
+    }
+    html {
+        scroll-padding-top: 160px;
     }
     /*      HOME SECTION        */
     #home {
