@@ -79,7 +79,6 @@ nav a:hover {
             /*      HOME SECTION        */
 #home {
     position: relative;
-    border: 2px solid red;
     margin-top: 55px;
 }
 .home-container h1 {
@@ -87,7 +86,7 @@ nav a:hover {
 }
 
 @media (max-width: 332px) {
-    /*      NAVBAR      */
+            /*      NAVBAR      */
     #navbar {
         border-bottom: 2px solid var(--accent-color1);
         position: fixed;
@@ -117,7 +116,6 @@ nav a:hover {
     /*      HOME SECTION        */
     #home {
         position: relative;
-        border: 2px solid red;
         margin-top: 161px;
     }
 }
