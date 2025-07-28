@@ -73,6 +73,7 @@ nav a:hover {
     color: var(--background-color);
     background-color:#cbbb2a;
     border-radius: 10px;
+    transition: all 0.4s ease-in;
 }
 
             /*      HOME SECTION        */
@@ -89,34 +90,39 @@ nav a:hover {
     display: flex;
 }
 .project-container {
-    border: 2px solid red;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 100%;
+    margin: auto;
 }
 
 .project-container img {
     display: flex;
-    border: 2px solid blue;
     width: 95%;
-    height: 350px;
+    height: 450px;
     margin: 10px auto;
     object-fit: cover;
 }
 
 .project-container p {
     text-align: center;
+    letter-spacing: 2px;
+    padding: 5px;
 }
 
 .project-container a {
     margin: 10px;
-    border: 2px solid red;
+    color: #ebebeb;
+    text-decoration: none;
+    transition: all 0.4s ease-in;
 }
 
 .project-container a:hover {
-    background-color: var(--accent-color1);
+    background-color: var(--accent-color2);
+    color: inherit;
+    transition: all 0.4s ease-in;
+    border-radius: 5px;
 }
 
 @media (max-width: 332px) {
