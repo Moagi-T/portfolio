@@ -84,7 +84,7 @@ nav a:hover {
     color: #fdedf2;
 }
 
-            /*      IMAGES      */
+            /*      PROJECT SECTION      */
 #projects {
     display: flex;
 }
@@ -100,10 +100,23 @@ nav a:hover {
 .project-container img {
     display: flex;
     border: 2px solid blue;
-    width: 80%;
+    width: 95%;
     height: 350px;
-    margin: auto;
+    margin: 10px auto;
     object-fit: cover;
+}
+
+.project-container p {
+    text-align: center;
+}
+
+.project-container a {
+    margin: 10px;
+    border: 2px solid red;
+}
+
+.project-container a:hover {
+    background-color: var(--accent-color1);
 }
 
 @media (max-width: 332px) {
