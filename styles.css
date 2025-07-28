@@ -20,7 +20,13 @@ body {
 
             /*      SECTION BORDERS     */
 section {
+    width: 100%;
     border-bottom: 2px solid var(--accent-color1);
+    z-index: -1;
+}
+
+section:last-of-type {
+    border-bottom: none;
 }
 
             /*      NAVBAR       */
@@ -29,9 +35,11 @@ section {
 #navbar {
     border-bottom: 2px solid var(--accent-color1);
     position: fixed;
+    top: 0;
     display: flex;
     width: 100%;
     background-color: var(--background-color);
+    z-index: 10;
 }
 
 nav > ul {
@@ -42,7 +50,6 @@ nav > ul {
 nav > ul > li {
     display: flex;
     color: #ebebeb;
-    
 }
 
 .right-side {
@@ -62,4 +69,48 @@ nav a:hover {
     color: var(--background-color);
     background-color:#cbbb2a;
     border-radius: 10px;
+}
+
+            /*      HOME SECTION        */
+#home {
+    position: relative;
+    border: 2px solid red;
+    margin-top: 55px;
+}
+.home-container h1 {
+    color: #fdedf2;
+}
+
+@media (max-width: 332px) {
+
+    /*      NAVBAR      */
+    #navbar {
+        border-bottom: 2px solid var(--accent-color1);
+        position: fixed;
+        top: 0;
+        display: flex;
+        width: 100%;
+        background-color: var(--background-color);
+        z-index: 10;
+    }
+    nav > ul {
+        display: block;
+        width: 100%;
+    }
+    nav > ul > li {
+        display: flex;
+    }
+    nav a {
+        width: 100%;
+        text-align: center;
+    }
+    nav a:hover {
+        border-radius: 0;
+    }
+    /*      HOME SECTION        */
+    #home {
+        position: relative;
+        border: 2px solid red;
+        margin-top: 161px;
+    }
 }
